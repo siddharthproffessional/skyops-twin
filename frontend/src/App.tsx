@@ -284,6 +284,7 @@ export default function App() {
         {compare && <button onClick={() => setCompare(null)} className="px-2.5 py-1.5 rounded-md text-[11.5px] font-semibold bg-slate-800 text-slate-200 border border-slate-600/50">Exit comparison</button>}
         {!compare && st.approved_plan && <button onClick={() => startCompare(st.approved_plan!)} className="px-2.5 py-1.5 rounded-md text-[11.5px] font-semibold bg-cyan-500/20 text-cyan-200 border border-cyan-400/40">Replay side-by-side</button>}
       </footer>
+      <p className="text-center text-[10.5px] text-slate-500 mono">© 2026 Siddharth Dialani · SkyOps Twin · All rights reserved</p>
 
       {toast && (
         <div className={`fixed bottom-20 left-1/2 -translate-x-1/2 px-4 py-2 rounded-lg text-[13px] font-semibold shadow-2xl border ${toast.tone === "red" ? "bg-red-950/90 border-red-500/50 text-red-100" : "bg-slate-900/95 border-cyan-400/50 text-cyan-100"}`}>

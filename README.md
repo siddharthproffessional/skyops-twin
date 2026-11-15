@@ -89,3 +89,7 @@ Vercel functions have no WebSockets or shared memory, so the hosted build runs i
 each incident is computed in a single `/api/run` request (the real agent run), and the browser then
 streams that recorded message log at a readable pace. Use `./start.sh` locally for the fully live,
 WebSocket version.
+
+## Copyright
+
+© 2026 Siddharth Dialani. All rights reserved. See [LICENSE](LICENSE). No part of this project may be copied, modified or redistributed without written permission.
